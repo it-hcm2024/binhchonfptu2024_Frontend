@@ -45,7 +45,7 @@ export default function FeedbackBubble(props) {
     };
 
     axios
-      .post("https://ithcm2024-001-site1.gtempurl.com//api/v1/feedbacks", feedbackData, {
+      .post("https://ithcm2024-001-site1.gtempurl.com/api/v1/feedbacks", feedbackData, {
         headers: {
           Authorization: `Bearer ${token}`,
           // other headers if needed

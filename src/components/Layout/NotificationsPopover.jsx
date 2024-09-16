@@ -45,7 +45,7 @@ export default function NotificationsPopover() {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        `https://ithcm2024-001-site1.gtempurl.com//api/v1/notifications/${decode.Username}`,
+        `https://ithcm2024-001-site1.gtempurl.com/api/v1/notifications/${decode.Username}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
