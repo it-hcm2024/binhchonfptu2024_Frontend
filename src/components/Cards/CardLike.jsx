@@ -69,7 +69,7 @@ export default function CardLike(props) {
       return text;
     }
 
-    const truncatedText = text.slice(0, length);
+    const truncatedText = text ? text.slice(0, length) : "NULL";
     const lastSpaceIndex = truncatedText.lastIndexOf(" ");
 
     return truncatedText.slice(0, lastSpaceIndex) + "...";
