@@ -46,7 +46,7 @@ export default function CardTop3(props) {
               onError={(e) => {
                 e.target.onerror = null;
                 e.target.src =
-                  "https://loiphong.vn/uploaded/10.GOC-TU-VAN/100.anh-phat/anh-phat-01.jpg";
+                  "https://res.cloudinary.com/ddrq4bfkk/image/upload/f_auto,q_auto/v1/2024/pg5l7ve7r98mlaffpkuu";
                 alt = "";
               }}
             />
