@@ -91,7 +91,7 @@ function Results() {
               <MultipleInteractionCard1
                 index={index + 4}
                 name={person.fullName}
-                image={person.avatarUrl?(person.avatarUrl):("https://res.cloudinary.com/ddrq4bfkk/image/upload/f_auto,q_auto/v1/2024/pg5l7ve7r98mlaffpkuu")}
+                image={person.avatarUrl ? person.avatarUrl:"https://res.cloudinary.com/ddrq4bfkk/image/upload/f_auto,q_auto/v1/2024/pg5l7ve7r98mlaffpkuu"}
                 score={person.score}
               />
             </Grid>
